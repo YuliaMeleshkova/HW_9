@@ -1,0 +1,195 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  height: 100%;
+  min-height: 100%;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding-top: 190px;
+}
+
+div, p, h1, h2, h3, h4, h5, h6, ul, li {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  min-height: 190px;
+  background: #4a4c58;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+header div {
+  text-align: center;
+  padding: 0 20px;
+}
+header div h1 {
+  text-transform: uppercase;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+header div h1 .clr-marine {
+  color: #40babd;
+}
+header div p {
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+header div p .icon_heart {
+  color: deeppink;
+}
+header div .social_media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px 10px;
+}
+header div .social_media div {
+  border-radius: 5px;
+  font-size: 0.8em;
+  margin: 0 10px;
+  padding: 5px 8px;
+}
+header div .social_media div.tweet {
+  background: #529be8;
+}
+header div .social_media div.fb-like {
+  background: #536daa;
+}
+header div .social_media div a {
+  color: white;
+}
+
+main {
+  min-height: 100%;
+  padding: 40px 0;
+  margin-bottom: -50px;
+  background: #f3f3f3;
+}
+main .container {
+  width: 60%;
+  text-align: center;
+}
+main .container h3 {
+  margin-bottom: 10px;
+}
+main .container .btn_download {
+  margin: 20px;
+  background: #40babd;
+  border: #40babd;
+}
+main .container .btn_download a {
+  color: white;
+}
+main .container .row {
+  margin: 40px 0;
+}
+main .container .row .item {
+  min-height: 220px;
+}
+main .container .row .item .item_inner {
+  padding: 20px 10px;
+  border-top: 3px solid;
+  border-radius: 5px;
+}
+main .container .row .item .item_inner .icon {
+  font-size: 3em;
+}
+main .container .row .item .item_inner .title_block {
+  margin: 10px 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+main .container .row .item .item_inner.border-green {
+  border-color: green;
+}
+main .container .row .item .item_inner.border-green .green {
+  color: green;
+}
+main .container .row .item .item_inner.border-deeppink {
+  border-color: deeppink;
+}
+main .container .row .item .item_inner.border-deeppink .deeppink {
+  color: deeppink;
+}
+main .container .row .item .item_inner.border-blue {
+  border-color: blue;
+}
+main .container .row .item .item_inner.border-blue .blue {
+  color: blue;
+}
+main .container .row .item .item_inner.border-violet {
+  border-color: darkviolet;
+}
+main .container .row .item .item_inner.border-violet .violet {
+  color: darkviolet;
+}
+main .container .row .item .item_inner.border-lightblue {
+  border-color: lightseagreen;
+}
+main .container .row .item .item_inner.border-lightblue .lightblue {
+  color: lightseagreen;
+}
+main .container .row .item .item_inner.border-orange {
+  border-color: orange;
+}
+main .container .row .item .item_inner.border-orange .orange {
+  color: orange;
+}
+
+footer {
+  width: 100%;
+  min-height: 50px;
+  padding: 0 10px;
+  background: #262729;
+  color: white;
+  font-size: 0.8em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 5;
+}
+footer span {
+  text-align: center;
+}
+footer span .icon_heart {
+  color: deeppink;
+}
+footer span a {
+  color: #40babd;
+}
+
+@media screen and (max-width: 399px) {
+  html, body {
+    font-size: 0.9em;
+  }
+
+  main {
+    padding-top: 60px;
+  }
+}

@@ -1,0 +1,213 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  height: 100%;
+  min-height: 100%;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 190px;
+}
+
+div, p, h1, h2, h3, h4, h5, h6, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  min-height: 190px;
+  background: #4a4c58;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+
+  div {
+    text-align: center;
+    padding: 0 20px;
+
+    h1 {
+      text-transform: uppercase;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+      .clr-marine {
+        color: #40babd;
+      }
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.7em;
+
+      .icon_heart {
+        color: deeppink;
+      }
+    }
+
+    .social_media {
+      display: flex;
+      justify-content: center;
+      margin: 15px 10px;
+
+      div {
+        border-radius: 5px;
+        font-size: 0.8em;
+        margin: 0 10px;
+        padding: 5px 8px;
+
+        &.tweet {
+          background: #529be8;
+        }
+        &.fb-like {
+          background: #536daa;
+        }
+
+        a {
+          color: white;
+        }
+
+      }
+    }
+  }
+}
+
+main {
+  min-height: 100%;
+  padding: 40px 0;
+  margin-bottom: -50px;
+  background: #f3f3f3;
+
+  .container {
+    width: 60%;
+    text-align: center;
+
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    .btn_download {
+      margin: 20px;
+      background: #40babd;
+      border: #40babd;
+
+      a {
+        color: white;
+      }
+    }
+
+    .row {
+      margin: 40px 0;
+
+      .item {
+        min-height: 220px;
+
+        .item_inner {
+          padding: 20px 10px;
+          border-top: 3px solid;
+          border-radius: 5px;
+
+          .icon {
+            font-size: 3em;
+          }
+
+          .title_block {
+            margin: 10px 0;
+            font-size: 1.1em;
+            font-weight: bold;
+          }
+
+          &.border-green {
+            border-color: green;
+
+            .green {
+              color: green;
+            }
+          }
+
+          &.border-deeppink {
+            border-color: deeppink;
+
+            .deeppink {
+              color: deeppink;
+            }
+          }
+
+          &.border-blue {
+            border-color: blue;
+
+            .blue {
+              color: blue;
+            }
+          }
+
+          &.border-violet {
+            border-color: darkviolet;
+
+            .violet {
+              color: darkviolet;
+            }
+          }
+
+          &.border-lightblue {
+            border-color: lightseagreen;
+
+            .lightblue {
+              color: lightseagreen;
+            }
+          }
+
+          &.border-orange {
+            border-color: orange;
+
+            .orange {
+              color: orange;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  width: 100%;
+  min-height: 50px;
+  padding: 0 10px;
+  background: #262729;
+  color: white;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+
+  span {
+    text-align: center;
+    .icon_heart {
+      color: deeppink;
+    }
+
+    a {
+      color: #40babd;
+    }
+  }
+
+}
+
+@media screen and (max-width: 399px) {
+  html, body {
+    font-size: 0.9em;
+  }
+  main {
+    padding-top: 60px;
+  }
+}
